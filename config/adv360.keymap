@@ -19,16 +19,6 @@
 #include <dt-bindings/zmk/backlight.h>
 
 / {
-    macros {
-        necesse_use_n0: necesse_use_n0 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_tap &kp N0 &mkp LCLK &kp N3>
-                ;
-        };
-    };
-
   behaviors {
     #include "macros.dtsi"
     #include "version.dtsi"
