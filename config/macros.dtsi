@@ -34,9 +34,9 @@ label = "macro_kinesis";
 #binding-cells = <0>;
 bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
-macro_se_use_n0: macro_se_use_n0{
+macro_necesse_use_n0: macro_necesse_use_n0{
 compatible = "zmk,behavior-macro";
-label = "macro_se_use_n0";
+label = "macro_necesse_use_n0";
 #binding-cells = <0>;
 bindings = <&kp N0>, <&mkp LCLK>, <&kp N3>;
 };
